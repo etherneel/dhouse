@@ -1,0 +1,226 @@
+
+.section.hero {
+    margin-top: 0px !important;
+}
+.section {
+    z-index: 3;
+    width: 100%;
+    grid-row-gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    position: relative;
+}
+
+.container {
+    z-index: 2;
+    width: 100%;
+    max-width: 60em;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 !important;
+    display: flex;
+    position: relative;
+}
+
+
+@media(min-width:768px){
+    .hero-layout {
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        display: grid;
+    }
+}
+
+
+#w-node-_33f1d247-9d2f-d5d7-ee5a-c3a9cd8f1aad-4456c467 {
+    grid-area: 1/1/2/2;
+    
+}
+
+
+@media(max-width:768px){
+    .hero_section_left_text{
+        margin-top: 60px !important;
+    }
+}
+
+.hero-content {
+    /* width: 34em; */
+    grid-row-gap: 1.4em;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.hero-display {
+    width: 7.5ch;
+    text-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2.5em;  
+    line-height: 1.1 !important;
+    line-height: .9;
+    margin-top: 60px;
+}
+
+h1 {
+    letter-spacing: -.035em;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.1 !important;
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 1;
+    display: flex;
+}
+
+.hero-p {
+    /* width: 38ch; */
+    color:#95a1b4;
+    line-height: 1.55;
+}
+
+.hero-install-item {
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    flex-direction: column;
+    margin-top: 1em;
+    display: flex;
+}
+
+.hero-btns-layout {
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    align-items: center;
+    padding: 0.2em;
+    display: flex;
+}
+
+
+.button.hero {
+    box-shadow: 0 0 1em 0 var(--accent-green),0 0 4em 0em var(--accent-green);
+    padding-right: 0.5em;
+}
+.button {
+    max-height: 4em;
+    min-height: 3em;
+    grid-column-gap: 0.25em;
+    grid-row-gap: 0.25em;
+    background-color: var(--accent-green);
+    color: var(--ui-black);
+    border-radius: 10em;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color .25s,transform .25s cubic-bezier(.645,.045,.355,1);
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-medium {
+    width: 1.7em;
+    height: 1.7em;
+    min-height: 1.7em;
+    min-width: 1.7em;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.w-embed:after {
+    clear: both;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+.btn-text-small {
+    font-size: .85em;
+}
+
+.btn-arrow-item {
+    width: 2em;
+    height: 2em;
+    min-height: 2em;
+    min-width: 2em;
+    background-color: #000000;
+    color: #b96c33;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.3em;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-small {
+    width: 1.3em;
+    height: 1.3rem;
+    max-width: none;
+    min-height: 1.3em;
+    min-width: 1.3em;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+.users-item {
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.users-item__pictures {
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.uesrs-item__count {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+
+.bold {
+    font-weight: 500;
+}
+
+.hero_sectionMain{
+    background-image: url("/Bgimage.JPG");
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 0 !important;
+}

@@ -1,0 +1,352 @@
+.gateway-scroll {
+    z-index: 0;
+    width: 100%;
+    height: 46em;
+    max-width: 100%;
+    font-size: .6em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: visible;
+}
+.gateway-sticky {
+    align-items: flex-start;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.gateway__canvas {
+    z-index: 1;
+    width: 100%;
+    height: 80em;
+    max-width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5em;
+    padding-right: 0;
+    display: flex;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+
+@media(max-width:768px){
+    .gateway__canvas{
+        padding-left: 0 !important;
+    }
+}
+.gateway-item {
+    width: 200em;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -6em;
+}
+.gc_portal {
+    z-index: 4;
+    width: 18em;
+    height: 31em;
+    box-shadow: 0 0 10em -2em #954A13,156px 8px 6em -6em #954A13,200px 0 10em -4em #954A13,0 0 0 1000vw var(--ui-black);
+    opacity: 1;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 12px;
+    align-items: center;
+ 
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media(max-width:768px){
+    .gc_portal {
+    margin-left: 0px !important;
+}
+}
+
+
+.gc_k {
+    z-index: 5;
+    width: 40em;
+    height: 31em;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    padding-left: 5em;
+    display: flex;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    transform: translate(0);
+}
+
+.k-top {
+    transform: skew(-45deg, 0deg) !important;
+}
+.k-top {
+    z-index: 2;
+    width: 60%;
+    height: 50%;
+    border-top: 1px solid rgba(255,255,255,.5);
+    border-left: 1px solid rgba(255,255,255,.5);
+    border-right: 1px solid rgba(255,255,255,.5);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 12px;
+    position: relative;
+    transform: skew(-50grad);
+}
+
+.k-btm {
+    transform: skew(45deg, 0deg) !important;
+}
+
+.k-btm {
+    z-index: 2;
+    width: 60%;
+    height: 50%;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-left: 1px solid rgba(255,255,255,.5);
+    border-right: 1px solid rgba(255,255,255,.5);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+    transform: skew(57.2958deg);
+}
+
+.k-gradient {
+    z-index: 1;
+    width: 45em;
+    height: 45em;
+    align-items: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 6.6em;
+    right: 0%;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+
+.k-gradient-image-2 {
+    width: 50em;
+    min-width: 1px;
+    filter: blur(7px);
+    position: relative;
+    bottom: -16em;
+    right: 16em;
+}
+
+.gc_planets-bg {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    min-width: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    overflow: hidden;
+}
+
+.planet-2__position {
+    width: 1px;
+    height: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    transform: translate(-5em,-12em);
+}
+
+.planet__2 {
+    z-index: 3;
+    width: 12em;
+    height: 12em;
+    max-width: none;
+    min-height: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.planet__image {
+    width: 100%;
+    min-width: 1px;
+    transform: rotate(0);
+}
+
+.planet-logo {
+    z-index: 2;
+    width: 2em;
+    position: absolute;
+}
+
+.planet-3__position {
+    width: 1px;
+    height: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    transform: translate(6em,-4em);
+}
+
+.planet__3 {
+    z-index: 2;
+    width: 12em;
+    height: 12em;
+    max-width: none;
+    min-height: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.planet__image.rotate {
+    transform: rotate(134deg);
+}
+.planet__image {
+    width: 100%;
+    min-width: 1px;
+    transform: rotate(0);
+}
+
+.planet-logo.regen {
+    width: 7em;
+}
+
+.planet-logo {
+    z-index: 2;
+    width: 2em;
+    position: absolute;
+}
+
+.planet-4__position {
+    width: 1px;
+    height: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    transform: translate(-4em,-1em);
+}
+
+.planet__4 {
+    z-index: 3;
+    width: 5em;
+    height: 5em;
+    max-width: none;
+    min-height: 1px;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.planet__image {
+    width: 100%;
+    min-width: 1px;
+    transform: rotate(0);
+}
+
+.planet-logo.akash {
+    width: 5em;
+}
+
+.planet-logo {
+    z-index: 2;
+    width: 2em;
+    position: absolute;
+}
+
+.gc_star {
+    z-index: 5;
+    width: 4em;
+    height: 4em;
+    align-items: center;
+    font-size: 1.2em;
+    display: flex;
+    position: absolute;
+    transform: translate(-12em,3em);
+}
+
+.star__position {
+    width: 4.5em;
+    position: absolute;
+    bottom: auto;
+    transform: rotate(45deg);
+}
+
+.tail__position {
+    width: 11em;
+    perspective-origin: 0%;
+    position: absolute;
+    bottom: auto;
+    left: 3.5em;
+    transform: translate(-2.9em,-3.8em)rotate(-45deg);
+}
+
+.tail {
+    min-width: 1px;
+}
+
+ 
+.gc_planet-canvas {
+    z-index: 5;
+    width: 24em;
+    height: 31em;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.1em;
+    margin-right: 0.01em;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    transform: translate(-3em);
+}
+
+
+
+ 
+.huge-planet__move {
+    width: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    transform: translate(8em,10em);
+}
+
+ 
+.huge-planet {
+    width: 35em;
+    height: 22em;
+    max-width: none;
+    min-height: 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: auto;
+    left: auto;
+    transform: translate(0);
+}
+
+
+.mobile_gateway{
+    position: relative !important;
+}
