@@ -24,7 +24,7 @@ const HeroSection = () => {
                 }}
                 class="hero-display flex"
               >
-                The <br/> <span className="text-[#b96c33]">Dollar House </span> platform
+                The <br/> <span className="text-[#b96c33]">Dollar House </span> platform is coming
               </h1>
               <p
                 data-w-id="92d155b7-9470-c5ca-9d45-ab6f46cc5671"

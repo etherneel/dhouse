@@ -8,7 +8,7 @@ const GovernedCommunity = () => {
           <span className=''>Dollar house </span> is <br/> Governed by the <br/> <span className='text-[#E07E37]'>community</span> 
          
          </h2>
-         <p className='mt-5 md:w-1/3 mx-auto mb-5 text-white'>Community drive program. Learning, educate, people with seminars, academy and perform marketing strategies to grow income. This is the motive of dollar house.</p>
+         <p className='mt-5 md:w-1/3 mx-auto mb-5 text-white'>Community driven program. Learning, educate, people with seminars, academy and perform marketing strategies to grow income. This is the motive of dollar house.</p>
         
          <a href='https://t.me/dollerhouse' className='bg-[#E07E37] mt-5 rounded-3xl py-2 px-4'>Join community</a>
     </div>
