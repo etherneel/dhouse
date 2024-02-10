@@ -28,7 +28,7 @@ const Interoperability = () => {
           >
             <div class="badge-bg">
               <div class="badge-content">
-                <div >Ecosystem</div>
+                <div className="text-white">Ecosystem</div>
               </div>
             </div>
           </div>
@@ -67,19 +67,19 @@ const Interoperability = () => {
             className="df-item md:flex justify-around df-item_new"
           >
             <div className="md:w-1/2 ">
-              <h3 className="text-3xl font-bold mt-5 md:mt-0 "> <span className="text-[#f3ba2f]">Binance </span>Smart Chain</h3>
+              <h3 className="text-3xl font-bold mt-5 md:mt-0 text-white "> <span className="text-[#f3ba2f]">Binance </span> <span className="text-white">Smart Chain</span></h3>
               <p className="text-white mt-3 max-w-[350px]">
               The robust & secure blockchain on which the dollar house platform is deployed. Dollar house uses BSC network because
                </p>
-              <ul className="mt-5 dashboard_ul">
-                <li>
+              <ul className="mt-5 dashboard_ul text-white">
+                <li className=" text-white" >
                 Robust & reliable 
                 </li>
-                <li>100% Secure & decentralized</li>
-                <li>
+                <li className=" text-white">100% Secure & decentralized</li>
+                <li className=" text-white">
                 Faster transactions                
                 </li>
-                <li>
+                <li className=" text-white">
                 Minimal gas fees
                 </li>
               </ul>

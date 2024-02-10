@@ -11,7 +11,7 @@ const BannerSection = () => {
           Decentralized coin with revenue generation
         </h1>
         <p className="description text-[18px] md:text-[20px] text-[#DDDDDD] text-center line-height-custom mx-auto md:w-1/2">
-          You can trade, swap, stake and invest on CUNetwork platform. CUNetwork
+          You can trade, swap, stake and invest on Dollar House platform. Dollar House
           is a decentralized token deployed on binance smart chain network.
           Let’s go to the moon..
         </p>

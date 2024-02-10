@@ -4,11 +4,11 @@ const GovernedCommunity = () => {
   return (
 <div>
     <div className='GovernedCommunity text-center py-28'>
-         <h2 className='text-3xl font-bold'>
-          <span className=''>Dollar house </span> is <br/> Governed by the <br/> <span className='text-[#E07E37]'>community</span> 
+         <h2 className='text-3xl font-bold text-white'>
+          <span className='text-white'>Dollar house </span> is <br/> Governed by the <br/> <span className='text-[#E07E37]'>community</span> 
          
          </h2>
-         <p className='mt-5 md:w-1/3 mx-auto mb-5 text-white'>Community driven program. Learning, educate, people with seminars, academy and perform marketing strategies to grow income. This is the motive of dollar house.</p>
+         <p className='mt-5 md:w-1/3 mx-auto mb-5 text-white'>Community drive program. Learning, educate, people with seminars, academy and perform marketing strategies to grow income. This is the motive of dollar house.</p>
         
          <a href='https://t.me/dollerhouse' className='bg-[#E07E37] mt-5 rounded-3xl py-2 px-4'>Join community</a>
     </div>
@@ -19,7 +19,7 @@ const GovernedCommunity = () => {
           >
             <div className="p-8 md:ml-5 md:max-w-[55%]">
               
-              <h3 className="text-2xl font-semibold mt-5">Why you should join <span className="text-[#E07E37]">Dollar House?</span></h3>
+              <h3 className="text-2xl font-semibold mt-5 text-white">Why you should join <span className="text-[#E07E37]">Dollar House?</span></h3>
                <ul className="mt-5">
                   <li className="text-sm mb-3 flex">
                        <img className="w-6 mr-4" src="/tickgreen.svg"/>
