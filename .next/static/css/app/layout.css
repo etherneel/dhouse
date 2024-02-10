@@ -3,7 +3,7 @@
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Plus_Jakarta_Sans_d21556';
+  font-family: '__Plus_Jakarta_Sans_e3c363';
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
@@ -12,7 +12,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Plus_Jakarta_Sans_d21556';
+  font-family: '__Plus_Jakarta_Sans_e3c363';
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
@@ -21,23 +21,23 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Plus_Jakarta_Sans_d21556';
+  font-family: '__Plus_Jakarta_Sans_e3c363';
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
   src: url(/_next/static/media/034043092db1e233-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Plus_Jakarta_Sans_d21556';
+  font-family: '__Plus_Jakarta_Sans_e3c363';
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
   src: url(/_next/static/media/2b3f1035ed87a788-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Plus_Jakarta_Sans_Fallback_d21556';src: local("Arial");ascent-override: 98.75%;descent-override: 21.12%;line-gap-override: 0.00%;size-adjust: 105.12%
-}.__className_d21556 {font-family: '__Plus_Jakarta_Sans_d21556', '__Plus_Jakarta_Sans_Fallback_d21556';font-style: normal
+}@font-face {font-family: '__Plus_Jakarta_Sans_Fallback_e3c363';src: local("Arial");ascent-override: 98.75%;descent-override: 21.12%;line-gap-override: 0.00%;size-adjust: 105.12%
+}.__className_e3c363 {font-family: '__Plus_Jakarta_Sans_e3c363', '__Plus_Jakarta_Sans_Fallback_e3c363';font-style: normal
 }
 
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
@@ -797,6 +797,9 @@ video {
 .w-full {
   width: 100%;
 }
+.max-w-\[1100px\] {
+  max-width: 1100px;
+}
 .max-w-\[200px\] {
   max-width: 200px;
 }
@@ -1227,10 +1230,6 @@ video {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1965,6 +1964,21 @@ justify-content: space-between !important;
   background-size: cover;
 }
 
+.disclaimer_conatnt2 p, .terms_conditions p{
+  font-size: 14px;
+  /* margin-bottom: 15px; */
+}
+.terms_conditions h3, .terms_conditions h2, .disclaimer_conatnt2 h3, .disclaimer_conatnt2 h2{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.disclaimer_conatnt2, .terms_conditions{
+  margin-top: 20px;
+  
+  margin-bottom: 20px;
+}
+
 .hover\:bg-blue-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
@@ -1975,9 +1989,9 @@ justify-content: space-between !important;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.focus\:outline-none:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
+.hover\:text-\[\#b96c33\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(185 108 51 / var(--tw-text-opacity));
 }
 
 .focus\:ring-2:focus {
@@ -2000,11 +2014,6 @@ justify-content: space-between !important;
 }
 
 @media (prefers-color-scheme: dark) {
-
-  .dark\:text-gray-400 {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity));
-  }
 
   .dark\:text-white {
     --tw-text-opacity: 1;
